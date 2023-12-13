@@ -10,7 +10,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 from sqlalchemy import create_engine, text
 
-churro = "postgresql://postgres:123456789@database-1.cczybszaj7ev.eu-north-1.rds.amazonaws.com:5432/postgres"
+churro = "postgresql://fl0user:MTZzC25pQXJG@ep-restless-hill-27198465.eu-central-1.aws.neon.fl0.io:5432/database?sslmode=require"
 engine = create_engine(churro)
 
 
